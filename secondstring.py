@@ -5,11 +5,11 @@
 
 
 
-sentence = (input("Please enter a sentence: "))
+sentence = (input("Please enter a sentence: ")) # requests a sentence to be inputted. note could adapt to let program read from a file
 
-words = sentence.split(" ")
+words = sentence.split(" ") # states that words are seprareted by a space
 
-print (words[::2])
+print (words[::2]) # instructs program to output every second word
 
 
 # 1. At current stage can enter a sentence and return all characters in sentence from between position 1 and 9 using "print (s[1:9])". I'm going to try and see if i can separate via spaces and then choose every second word. 

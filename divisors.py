@@ -8,10 +8,10 @@ for n in range(1000 , 10000):
 
    for x in range(1000, n):
 
-      if n % 6 == 0:
-         if n % 12 != 0:
-              print(n, "is divisible by 6 but not 12" ) 
-              break
+      if n % 6 == 0: #ie if the number is divisible by 6 then go to next step and check if it divisible by 12
+         if n % 12 != 0: # if the number is not divisible by 12...
+              print(n, "is divisible by 6 but not 12" ) #print the list of number
+              break # stops the program at each number otherwise goes into an inifinite loop. this happened a few times
               
    
 

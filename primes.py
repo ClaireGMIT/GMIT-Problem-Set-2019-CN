@@ -5,15 +5,15 @@
 # specifically used section 4.4 of the Python tutorial
 
 
-i = int(input("Please enter a positive integer: "))
+i = int(input("Please enter a positive integer: ")) # requests input of a positive number
 
-for x in range(2 , i):
-    if i % x == 0:
+for x in range(2 , i): #ie for all numbers in this range
+    if i % x == 0: # if the number i is divisible by x then number is not a prime number. ie it has factors
         print(i, "is not a prime number")
-        break
+        break # required to stop an inifinite loop and to allow program to move to the next step
             
-else:
-    if i % x != 0:
+else: #otherwise if i has no factors then it must be a prime number
+    if i % x != 0: # != means not equal
         print(i, "is a prime number")
 
 # 1. Initial programme returned list from 3 to 18      

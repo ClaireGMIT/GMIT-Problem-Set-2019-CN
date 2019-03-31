@@ -5,9 +5,10 @@
 # specifically used the standard library section of the Python tutorial
 
 
-import datetime as dt
-now = dt.datetime.now()
-print ("Today is",now.strftime("%A, %B %d %Y at %H:%M:%S"))
+import datetime as dt # import todays date and time from the Python module
+now = dt.datetime.now() 
+print ("Today is",now.strftime("%A, %B %d %Y at %H:%M:%S")) 
+        # ie from todays date and time provide the output in the specified order.
 
 
 

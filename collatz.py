@@ -5,15 +5,15 @@
 
 x = int(input("Please enter a positive integer: "))
 
-while x > 1:
+while x > 1: 
 
-    if x % 2 == 0:
-        x = x / 2
+    if x % 2 == 0: 
+        x = x / 2 # ie if X is divisible by 2 then provide a new number which is the result of x divided by 2
 
     elif x % 2 != 0:
-                x = (x*3)+1
+                x = (x*3)+1 # ie if X is not divisible by 2 then provide a new number which is the result of x multiplied by 3 plus 1
 
-    print(int(x))
+    print(int(x)) #print the list of values as integer
 
 
 # 1: Initially getting as far as firtst step. Will look at indents. Have decided to remove "print (i)" command.  
