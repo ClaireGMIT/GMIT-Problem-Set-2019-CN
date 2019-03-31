@@ -1,4 +1,6 @@
-import datetime
-now = datetime.datetime.now()
-print ("Current date and time : ")
-print (now.strftime("%Y-%m-%d %H:%M:%S"))
+with open ("text.txt", 'r') as fi:
+    while 1:
+        line = fi.readline()
+        if line == "":
+            break
+        print(line)
