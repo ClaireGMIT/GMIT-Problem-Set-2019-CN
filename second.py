@@ -1,7 +1,7 @@
 # Claire Nolan March 2019
-# sescond.py
+# second.py
 # Question 9 of Problem Set
-# Ref: Lecture Notes and Python Tutorial
+# Ref: Lecture Notes and Python Tutorial, coders apprentice, "python in easy steps" by Mike Mcgrath"
 
 
 # insert referecne to moby text file

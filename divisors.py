@@ -1,7 +1,8 @@
 # Claire Nolan March 2019
 # Python-divisors.py
 # Question 3 of Problem Set
-# Ref: Lecture Notes and Python Tutorial
+# Ref: Lecture Notes and Python Tutorial, coders apprentice, "python in easy steps" by Mike Mcgrath"
+
 
 for n in range(1000 , 10000):
 
