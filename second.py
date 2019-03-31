@@ -3,7 +3,7 @@
 # Question 9 of Problem Set
 # Ref: Lecture Notes and Python Tutorial (specifically section 7.2), coders apprentice, "python in easy steps" by Mike Mcgrath"
 
-f = open("mobyDick.txt" , "r")
+f = open("MobyDick.txt" , "r")
 
 # ie open this particular file for reading
 
