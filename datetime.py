@@ -5,8 +5,8 @@
 # specifically used the standard library section of the Python tutorial
 
 
-import datetime
-now = datetime.datetime.now()
+import datetime as dt
+now = dt.datetime.now()
 print ("Today is",now.strftime("%A, %B %d %Y at %H:%M:%S"))
 
 
